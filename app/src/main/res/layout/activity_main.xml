@@ -25,7 +25,7 @@
 
 
     <Button
-        android:id="@+id/buttonf2"
+        android:id="@+id/buttond2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/drink"/>
@@ -38,41 +38,46 @@
         android:id="@+id/buttonf3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/typeofburger1"/>
-
+        android:text="@string/typeofburger1"
+       android:visibility="invisible"/>
 
     <RadioButton
         android:id="@+id/buttonf4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/typeofburger2"
-       />
+        android:visibility="invisible" />
 
     <RadioButton
         android:id="@+id/buttonf5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/typeofburger3"/>
+        android:text="@string/typeofburger3"
+        android:visibility="invisible" />
 
 
     <RadioButton
-        android:id="@+id/buttodD1"
+        android:id="@+id/buttondd6"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/typeofdrink1"/>
+        android:text="@string/typeofdrink1"
+        android:visibility="invisible"/>
 
 
     <RadioButton
-        android:id="@+id/buttonD2"
+        android:id="@+id/buttond7"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/typeofdrink2"/>
+        android:text="@string/typeofdrink2"
+        android:visibility="invisible"/>
 
     <RadioButton
-        android:id="@+id/buttonD3"
+        android:id="@+id/buttond8"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/typeofdrink3"/>
+        android:text="@string/typeofdrink3"
+        android:visibility="invisible"
+        />
 
 
 
