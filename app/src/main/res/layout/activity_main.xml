@@ -1,18 +1,83 @@
-<?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
+<LinearLayout
+
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    android:layout_width="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:text="@string/app_name"
+        android:id="@+id/storename"/>
 
-</android.support.constraint.ConstraintLayout>
+
+
+
+
+    <Button
+        android:id="@+id/buttonf1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/foodType1" />
+
+
+    <Button
+        android:id="@+id/buttonf2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/drink"/>
+
+
+
+
+
+    <RadioButton
+        android:id="@+id/buttonf3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/typeofburger1"/>
+
+
+    <RadioButton
+        android:id="@+id/buttonf4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/typeofburger2"
+       />
+
+    <RadioButton
+        android:id="@+id/buttonf5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/typeofburger3"/>
+
+
+    <RadioButton
+        android:id="@+id/buttodD1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/typeofdrink1"/>
+
+
+    <RadioButton
+        android:id="@+id/buttonD2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/typeofdrink2"/>
+
+    <RadioButton
+        android:id="@+id/buttonD3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/typeofdrink3"/>
+
+
+
+</LinearLayout>
+
+
+
+
