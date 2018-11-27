@@ -1,4 +1,10 @@
-<LinearLayout
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+
+    <LinearLayout
 
     android:layout_height="match_parent"
     android:layout_width="match_parent"
@@ -18,10 +24,10 @@
 
 
     <Button
-        android:id="@+id/buttonf1"
+        android:id="@+id/buttonft1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/foodType1" />
+        android:text="@string/foodType" />
 
 
     <Button
@@ -33,31 +39,68 @@
 
 
 
-
+<RadioGroup
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
     <RadioButton
-        android:id="@+id/buttonf3"
+        android:id="@+id/buttonft2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/typeofburger1"
        android:visibility="invisible"/>
 
     <RadioButton
-        android:id="@+id/buttonf4"
+        android:id="@+id/buttonft3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/typeofburger2"
         android:visibility="invisible" />
 
     <RadioButton
-        android:id="@+id/buttonf5"
+        android:id="@+id/buttonft4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/typeofburger3"
         android:visibility="invisible" />
 
+    <RadioButton
+        android:id="@+id/buttonft5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/typeofburger4"
+        android:visibility="invisible" />
+
 
     <RadioButton
-        android:id="@+id/buttondd6"
+        android:id="@+id/buttonft6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/typeofburger5"
+        android:visibility="invisible" />
+
+    <RadioButton
+        android:id="@+id/buttonft7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/typeofburger6"
+        android:visibility="invisible" />
+
+    <RadioButton
+        android:id="@+id/buttonft8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/typeofburger7"
+        android:visibility="invisible" />
+
+
+
+
+</RadioGroup>
+<RadioGroup
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <RadioButton
+        android:id="@+id/buttond6"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/typeofdrink1"
@@ -79,6 +122,31 @@
         android:visibility="invisible"
         />
 
+    <RadioButton
+        android:id="@+id/buttond9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/typeofdrink4"
+        android:visibility="invisible"/>
+
+
+    <RadioButton
+        android:id="@+id/buttond10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/typeofdrink5"
+        android:visibility="invisible"/>
+
+    <RadioButton
+        android:id="@+id/buttond11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/typeofdrink6"
+        android:visibility="invisible"
+        />
+
+</RadioGroup>
+
 
 
 </LinearLayout>
@@ -86,3 +154,4 @@
 
 
 
+</ScrollView>

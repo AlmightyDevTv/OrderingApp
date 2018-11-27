@@ -1,14 +1,21 @@
 <resources>
     <string name="app_name">AlmightysKitchen</string>
     <string name="storename">AlmightysKitchen</string>
-    <string name="foodType1">Hamburgers</string>
+    <string name="foodType">Hamburgers</string>
     <string name="drink">Softdrinks</string>
     <string name="typeofburger1">BaconBurger</string>
     <string name="typeofburger2">ShrimpBurger</string>
     <string name="typeofburger3">AlmightyBurger(onioring,bbq sauce, white cheese,grilled chicken)</string>
+    <string name="typeofburger4">pickle</string>
+    <string name="typeofburger5">tomato</string>
+    <string name="typeofburger6">white cheese</string>
+    <string name="typeofburger7">American cheese</string>
     <string name="typeofdrink1">SpriTea</string>
     <string name="typeofdrink2">Strawberrygingerale</string>
     <string name="typeofdrink3">cranberrycoke</string>
+    <string name="typeofdrink4">Small</string>
+    <string name="typeofdrink5">Medium</string>
+    <string name="typeofdrink6">Large</string>
 
 
 </resources>
